@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   // your solution
-  const open_breckets = ['(' , '{'];
+  const open_breckets = ['(' , '['];
   const bracketsConfig = bracketsConfig ;
   const str = str ;
   function isBrecketsOk (str) {
