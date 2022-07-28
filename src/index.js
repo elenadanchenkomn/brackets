@@ -1,9 +1,8 @@
 module.exports = function check(str, bracketsConfig) {
   // your solution
   const open_breckets = ['(' , '['];
-  const bracketsConfig = bracketsConfig ;
-  const str = str ;
-  function isBrecketsOk (str) {
+  
+  
     let stack = [] ;
     for (let i = 0 ; i < str.Length ; i++ ) {
       let correntSymbol = str[i] ;
@@ -18,7 +17,7 @@ module.exports = function check(str, bracketsConfig) {
               return false;
             }
           }
-        } 
+        
         }return stack.length === 0;
       }
     
